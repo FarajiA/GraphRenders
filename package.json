@@ -1,0 +1,46 @@
+{
+  "name": "angularjs",
+  "version": "0.0.2",
+  "description": "Simple AngularJS project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DBProductions/angularjs-starter-app"
+  },
+  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt",
+    "grunt": "grunt --verbose",
+    "start": "node server.js",
+    "webdriver": "webdriver-manager start",
+    "karma": "karma start config/karma.conf.js",
+    "protractor": "protractor config/protractor.conf.js"
+  },
+  "author": "dennis@dbproductions.de",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.5.1",
+    "grunt-contrib-csslint": "^0.4.0",
+    "grunt-contrib-jshint": "0.6.4",
+    "grunt-jscs": "^1.5.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-yuidoc": "~0.4.0",
+    "grunt-karma": "0.8.2",
+    "grunt-protractor-runner": "~1.1.4",
+    "grunt-template-jasmine-istanbul": "~0.2.5",
+    "karma": "*",
+    "karma-chrome-launcher": "~0.1.3",
+    "karma-jasmine": "~0.1.0"
+  }
+}

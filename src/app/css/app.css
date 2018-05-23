@@ -1,0 +1,40 @@
+/* app css stylesheet */
+.navbar-default {
+    background: #fff;
+    border-radius: 0 0 5px 5px;  
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-radius: 5px 5px 5px 5px;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+.menu:before {
+  content: "[";
+}
+.menu:after {
+  content: "]";
+}
+.menu > li {
+  display: inline;
+}
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+/* mouseover */
+.nav .dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.info-text {
+  margin-top: 6px;
+}
