@@ -1,4 +1,3 @@
-node_modules/
-coverage/
-docs/
 .DS_Store
+node_modules
+dist
